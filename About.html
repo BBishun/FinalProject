@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap" rel="stylesheet">
+    <title>About Us</title>
+    <style>
+        body{
+            background-image: url(Pictures/AboutUsBackground.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+  <script>
+    document.body.className = 'fade';
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () =>{
+      window.setTimeout(function(){
+        document.body.className = '';
+      }, 1000)
+    });
+  </script>
+  <div class="Logo">
+    <img src="./Pictures/NikeLogo.jpg" width="10%">
+  </div>
+  
+<div class="nav">
+    <a href="./index.html">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Products<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="./Men's Sneakers.html">Men's Sneakers</a>
+          <a href="./Women's Sneakers.html">Women's Sneakers</a>
+          <a href="./Children's Sneakers.html">Children's Sneakers</a>
+        </div>
+    </div>
+    <a href="./Contact.html">Contact</a>
+    <a class="active" href="./About.html">About Us</a>
+    <input type="text" placeholder="Search...">
+</div>
+
+<p id="AboutParagraph">Nike exists to bring inspiration and innovation to every athlete in the world. Out Purpose is to move the world forward through the power of sport-
+    breaking barriers and building community to change the game for all. Nike is a brand of hope and inspiration. We believe in the power of sport to bring
+    out the best in people, and the potential of people to bring out the best in our world. Out Purpose guides us, because we believe progress is possible.</p>
+
+  <script src=script.js></script>
+</body>
+</html>

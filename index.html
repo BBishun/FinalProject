@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+
+  <script>
+    document.body.className = 'fade';
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () =>{
+      window.setTimeout(function(){
+        document.body.className = '';
+      }, 1000)
+    });
+  </script>
+
+  <div class="Logo">
+    <img src="./Pictures/NikeLogo.jpg" width="10%">  
+  </div>
+
+<div class="nav">
+        <a class="active" href="./index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Products<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="./Men's Sneakers.html">Men's Sneakers</a>
+              <a href="./Women's Sneakers.html">Women's Sneakers</a>
+              <a href="./Children's Sneakers.html">Children's Sneakers</a>
+            </div>
+        </div>
+        <a href="./Contact.html">Contact</a>
+        <a href="./About.html">About Us</a>
+        <input type="text" placeholder="Search...">
+</div>
+
+<div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="./Pictures/Men_Nike_SB_Zoom_Blazer_Mid_Premium.jpg" style="width: 100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="./Pictures/Women_Nike_Precision_4.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="./Pictures/Women_Nike_Air_Zoom_Alphafly_NEXT%_Flyknit.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+        <img src="./Pictures/Men_Zion_1.jpg" style="width:100%">
+      </div>
+</div>
+
+<h1 id="Title1">Men's Sneakers</h1>
+
+<div class="SneakersGrid">
+  <img id="One" src="./Pictures/Men_Air_Jordan_1_Mid.jpg">
+  <img id="Two" src="./Pictures/Men_Jordan_Point_Lane.jpg">
+  <img id="Three" src="./Pictures/Men_KD14.jpg">
+  <img id="Four" src="./Pictures/Men_LeBron_18.jpg">
+</div>
+
+<h1 id="Title2">Women's Sneakers</h1>
+
+<div class="SneakersGrid">
+  <img id="One" src="./Pictures/Women_Jordan_Air_Mae.jpg">
+  <img id="Two" src="./Pictures/Women_Jordan_Air_NFH.jpg">
+  <img id="Three" src="./Pictures/Women_Jordan_Delta_2.jpg">
+  <img id="Four" src="./Pictures/Women_Kyrie_7.jpg">
+</div>
+
+<h1 id="Title2">Children's Sneakers</h1>
+
+<div class="SneakersGrid">
+  <img id="One" src="./Pictures/Kids_Jordan_1_mid.jpg">
+  <img id="Two" src="./Pictures/Kids_Nike_Air_Force_1_LV8.jpg">
+  <img id="Three" src="./Pictures/Kids_Nike_Air_Max_270.jpg">
+  <img id="Four" src="./Pictures/Kids_Nike_Air_Max_Plus_OG.jpg">
+</div>
+
+<footer>
+  <div class="tooltip">COMPANY INFO & INQUIRIES
+    <span class="tooltiptext">1-800-344-6453</span>
+  </div>
+</footer>
+
+  <script src=script.js></script>
+</body>
+</html>

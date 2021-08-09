@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+    <style>
+      body{
+          background-image: url(Pictures/ContactUsBackground.png);
+          background-size: cover;
+          background-attachment: fixed;
+      }
+  </style>
+</head>
+<body>
+  <script>
+    document.body.className = 'fade';
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () =>{
+      window.setTimeout(function(){
+        document.body.className = '';
+      }, 1000)
+    });
+  </script>
+  <div class="Logo">
+    <img src="./Pictures/NikeLogo.jpg" width="10%">
+  </div>
+
+<div class="nav">
+      <a href="./index.html">Home</a>
+      <div class="dropdown">
+          <button class="dropbtn">Products<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Men's Sneakers.html">Men's Sneakers</a>
+            <a href="./Women's Sneakers.html">Women's Sneakers</a>
+            <a href="./Children's Sneakers.html">Children's Sneakers</a>
+          </div>
+        </div>
+        <a class="active" href="./Contact.html">Contact</a>
+        <a href="./About.html">About Us</a>
+        <input type="text" placeholder="Search...">
+</div>
+
+<p id="ContactParagraph">Comments or Questions? Send us an email and we'll make sure you get a reply within 5-10 business days.</p>
+<div class="Form">
+<p>First Name: <input type="text" name="fname" id="fname"><br></p>
+    <p>Last Name: <input type="text" name="lname" id="lname"><br></p> 
+    <p>&nbsp; &nbsp; &nbsp; E-mail: <input type="text"><br><br></p>
+
+    <p>Comments/Questions:</p> <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+    <button type="button"> Contact </button> <button type="button"> Reset </button>
+</div>
+
+  <script src=script.js></script>
+</body>
+</html>
